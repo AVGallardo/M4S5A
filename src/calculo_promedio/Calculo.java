@@ -17,7 +17,7 @@ public class Calculo {
         }
         mostrar(listaMaterias, listaNotas);
     }
-    public void mostrar(String[] listaMaterias, double[] listaNotas){
+    private void mostrar(String[] listaMaterias, double[] listaNotas){
         double notas = 0;
 
         System.out.println("Sus notas son las siguientes");
